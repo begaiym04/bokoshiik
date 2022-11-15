@@ -1,0 +1,54 @@
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //flex-wrap: wrap;
+}
+@mixin center {
+  display: flex;
+  align-items: center;
+}
+@mixin hov-btn {
+  &:hover {
+    background: transparent;
+    transition: .4s;
+    transform: scale(1.1);
+    color: #F57059;
+  }
+}
+@mixin dfe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@mixin dfc {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin fs {
+  display: flex;
+  align-items: flex-start;
+}
+@mixin bf {
+  &:before {
+    content:'';
+    background: #f6f6f6;
+    width: 5px;
+    height: 5px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 0 3px;
+
+  }
+}
+@mixin fd {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@mixin fdimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
