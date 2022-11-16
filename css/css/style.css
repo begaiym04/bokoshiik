@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -77,6 +77,10 @@ input {
 
 .svj {
   margin-left: 400px;
+}
+
+.red {
+  overflow-x: hidden;
 }
 
 #header {
